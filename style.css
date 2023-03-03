@@ -120,8 +120,7 @@ button{
 .sect_feed{
         display: flex;
         flex-direction: column;
-        background-image: url("./assets/pretty-woman-reading-book-library.jpg");
-        background-position: right;
+        background-image: url("./assets/woman-g87a4f672f_1920.jpg");
          background-size: cover;
         width: 50%;
         border-top-right-radius: 20px ;
