@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+body{
+    background-color: rgb(214, 213, 213);
+}
+.logo{
+    display: none;
+}
+.main{
+    display: flex;
+    background-color: white;
+    margin: 1rem auto; 
+    width: 1000px;
+    border-radius: 20px;
+    
+
+}
+.infoform{
+    margin: 7rem 5rem;
+}
+.sect_form .head h1{
+    font-weight: 500;
+}
+.sect_form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.head h1{
+    margin-bottom: 0.6rem;
+}
+.head p{
+    margin-bottom: 2rem;
+    opacity: 75%;
+}
+.form_start{
+    margin: 0rem 0rem;
+}
+.form_start input{
+    width: 97%;
+    padding: 7px;
+    border-radius: 7px;
+    border: solid 1pt grey;
+    margin-bottom: 1rem;
+}
+
+label h4{
+    font-size: 11pt;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.form_end{
+    display: flex;
+    margin: 0 0;
+    place-items: center;
+    justify-content: space-between;
+    
+}
+label {
+    font-size: 10pt;
+    font-weight: 500;
+}
+.form_end  h4{
+    font-size: 10pt;
+    font-weight: 500;
+    
+    
+}
+button{
+    width: 100% ;
+    border-radius: 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0.2rem 0;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.btn_signin{
+    width: 100% ;
+    border-radius: 7px;
+    padding: 12px 0;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0.2rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn_invert{
+    background-color: white;
+    color: black;
+    border: solid 1pt black;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.btn_invert span{
+    margin: 12px 0;
+}
+.btn{
+    text-align: center;
+}
+.light{
+    font-weight: lighter;
+
+}
+
+.splash{
+    position: sticky;
+    margin-left: 10rem;
+}
+.sect_feed{
+        display: flex;
+        flex-direction: column;
+        background-image: url("./assets/pretty-woman-reading-book-library.jpg");
+        background-position: right;
+         background-size: cover;
+        width: 50%;
+        border-top-right-radius: 20px ;
+        border-bottom-right-radius: 20px;
+        
+    }
+.feed{
+    display: flex;
+    justify-content: space-between;
+}
+.feedleft h4{
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 1rem 0;
+    position: relative;
+    text-align: center;
+    color: white;
+    position: relative;
+    
+}
+.p{
+    font-size: 13pt;
+    font-weight: 500;
+}
+.sub_p{
+    font-weight: lighter;
+    font-size: 12pt;
+}
+.feedback{
+    color: white;
+    position: relative;
+    margin: 0 1rem 1rem 1rem;
+    top: 56vh;
+    padding: 1.7rem;
+    background: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    backdrop-filter: blur(7px);
+}
+.feedback:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+}
+.feedback h1{
+     font-weight: 500;
+     font-size: 20pt;
+}
+.shape{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: solid white 1pt;
+    border-radius: 40px;
+}
+.star{
+    margin: 2rem 0 1rem 0;
+}
+@media screen and (max-device-width: 1000px){
+    .logo{
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .logo img{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+
+    }
+    .head h1{
+        text-align: center;
+    }
+    .head p{
+        text-align: center;
+    }
+    body{
+        background-color: white;
+    }
+    .sect_feed{
+        display: none;
+    }
+    .main{
+        display: flex;
+        background-color: white;
+        margin: 1rem auto; 
+        width: 100%;
+        border-radius: 0;
+        padding: auto 0;
+        
+    
+    }
+    .infoform{
+        margin: 0;
+    }
+    .sect_form .head h1{
+        font-weight: 500;
+    }
+    .sect_form{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .head h1{
+        margin-bottom: 0.6rem;
+    }
+    .head p{
+        margin-bottom: 2rem;
+        opacity: 75%;
+    }
+    .form_start{
+        margin: 0 0rem;
+    }
+    .form_start input{
+        width: 97%;
+        padding: 7px;
+        border-radius: 7px;
+        border: solid 1pt grey;
+        margin-bottom: 1rem;
+    }
+    
+    label h4{
+        font-size: 11pt;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    .form_end{
+        display: flex;
+        margin: 0 0;
+        place-items: center;
+        justify-content: space-between;
+        
+    }
+    label {
+        font-size: 10pt;
+        font-weight: 500;
+    }
+    .form_end  h4{
+        font-size: 10pt;
+        font-weight: 500;
+        
+        
+    }
+    button{
+        width: 100% ;
+        border-radius: 7px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin: 0.2rem 0;
+        text-align: center;
+        font-size: 12pt;
+        font-weight: 500;
+    }
+    
+    .btn_signin{
+        width: 100% ;
+        border-radius: 7px;
+        padding: 12px 0;
+        border: none;
+        background-color: black;
+        color: white;
+        margin: 0.2rem 0;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .btn_invert{
+        background-color: white;
+        color: black;
+        border: solid 1pt black;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .btn_invert span{
+        margin: 12px 0;
+    }
+    .btn{
+        text-align: center;
+    }
+    .light{
+        font-weight: lighter;
+    
+    }
+    
+    .splash{
+        position: sticky;
+        margin-left: 10rem;
+    }
+}
+
