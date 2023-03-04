@@ -193,21 +193,15 @@ button{
     .logo{
         display: grid;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
-    .logo img{
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-
-    }
     .head h1{
-        text-align: center;
+        text-align: left;
     }
     .head p{
-        text-align: center;
+        text-align: left;
     }
     body{
         background-color: white;
